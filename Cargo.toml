@@ -18,7 +18,7 @@ nightly = ["structopt-derive/nightly"]
 travis-ci = { repository = "TeXitoi/structopt" }
 
 [dependencies]
-clap = { version = "2.20", default-features = false }
+clap = { git = "https://github.com/guangie88/clap-rs.git", rev = "allow-deprecated", default-features = false }
 structopt-derive = { path = "structopt-derive", version = "0.2.6" }
 
 [workspace]
